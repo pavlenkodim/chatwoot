@@ -354,6 +354,7 @@
     "MACROS": "Макрос",
     "TEAMS": "Команды",
     "BILLING": "Платёж",
+    "WHATSAPP_USAGE": "Лимиты и оплата",
     "CUSTOM_VIEWS_FOLDER": "Папки",
     "CUSTOM_VIEWS_SEGMENTS": "Сегменты",
     "ALL_CONTACTS": "Все контакты",
@@ -640,6 +641,47 @@
         "INSTANT_DEDUCTION_NOTE": "Your saved card will be charged immediately upon confirmation.",
         "GO_BACK": "Вернуться",
         "CONFIRM_PURCHASE": "Confirm Purchase"
+      }
+    }
+  },
+  "WHATSAPP_USAGE": {
+    "TITLE": "Лимиты и оплата",
+    "DESCRIPTION": "Отслеживайте расход сообщений WhatsApp и пополняйте баланс.",
+    "FETCH_ERROR": "Не удалось загрузить данные о расходе. Попробуйте ещё раз.",
+    "BALANCE": {
+      "TITLE": "Баланс",
+      "DESCRIPTION": "Доступные кредиты для диалогов WhatsApp.",
+      "DEBT_WARNING": "Лимит превышен на {count} диалогов. Пополните баланс, чтобы избежать перебоев.",
+      "LIMIT": "Лимит",
+      "USED": "Потрачено",
+      "REMAINING": "Осталось"
+    },
+    "SPENT": {
+      "TITLE": "Расход",
+      "DESCRIPTION": "Оплаченные диалоги за последние периоды.",
+      "TODAY": "Сегодня",
+      "WEEK": "За неделю",
+      "MONTH": "За месяц"
+    },
+    "TOPUP": {
+      "TITLE": "Пополнение",
+      "DESCRIPTION": "Выберите пакет для пополнения кредитов WhatsApp.",
+      "BUTTON_TXT": "Пополнить",
+      "SUCCESS": "Заявка на пополнение отправлена.",
+      "ERROR": "Не удалось отправить заявку на пополнение. Попробуйте ещё раз."
+    },
+    "HISTORY": {
+      "TITLE": "История платежей",
+      "DESCRIPTION": "Ваши предыдущие заявки на пополнение по этому аккаунту.",
+      "EMPTY": "Заявок на пополнение пока нет.",
+      "FETCH_ERROR": "Не удалось загрузить историю платежей. Попробуйте ещё раз.",
+      "DATE": "Дата",
+      "CREDITS": "Кредиты",
+      "STATUS": "Статус",
+      "STATUSES": {
+        "approved": "Одобрено",
+        "pending": "В ожидании",
+        "rejected": "Отклонено"
       }
     }
   },
